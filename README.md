@@ -14,7 +14,7 @@ chip_etching软件包用为基于图像处理的微流控芯片刻蚀模拟程�
 
 ## 案例
 
-![https://github.com/nv4dll-git/chip_etching/blob/main/data/model.tif]
+![微流控芯片设计稿（二值化处理后）](https://github.com/nv4dll-git/chip_etching/blob/main/data/model.tif)
 
 ## Requirement
 - Python
