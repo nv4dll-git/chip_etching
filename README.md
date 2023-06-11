@@ -9,21 +9,25 @@ chip_etching软件包用为基于图像处理的微流控芯片刻蚀模拟程�
 
 ## 流程
 - 首先将微流控芯片的CAD设计稿导出为无压缩的PNG格式。
-- 采用Photoshop或其他软件将设计稿二值化。
+- 采用Photoshop或其他软件将设计稿二值化，并储存为无压缩的tif格式。
 - 使用etching_simulation.ipynb进行刻蚀模拟。
 
 ## 案例
-
+- 二值化处理后的微流控芯片：
 ![微流控芯片设计稿（二值化处理后）](https://github.com/nv4dll-git/chip_etching/blob/main/data/model.tif)
+- 刻蚀模拟结果：
+![微流控芯片设计稿（二值化处理后）](https://github.com/nv4dll-git/chip_etching/blob/main/data/output.png)
+- 微流控芯片的实物照片：
+![微流控芯片设计稿（二值化处理后）](https://github.com/nv4dll-git/chip_etching/blob/main/data/real.png)
+可以看出，刻蚀模拟结果与实物十分接近。
 
-## Requirement
+## 软件环境需求
 - Python
 - scipy
 - matplotlib
 
-## Author
+## Author/作者
 Haowei Jia, China University of Petroleum, nv4dll@outlook.com.
-## TODO
-- Fully translation of files.
+
 ## License 
 MIT
